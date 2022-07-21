@@ -252,6 +252,14 @@ module.exports = {
         "manuals/customerportal/support",
       ],
     },
+    {
+      type: "category",
+      label: "Console",
+      collapsed: true,
+      items: [
+        "manuals/console/overview",
+      ],
+    },
     "manuals/troubleshooting",
   ],
   legal: [

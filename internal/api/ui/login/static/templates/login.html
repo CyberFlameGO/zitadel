@@ -23,7 +23,7 @@
         <div class="lgn-suffix-wrapper">
             <input class="lgn-input lgn-suffix-input" type="text" id="loginName" name="loginName" placeholder="{{if .OrgID }}{{t "Login.UsernamePlaceHolder"}}{{else}}{{t "Login.LoginnamePlaceHolder"}}{{end}}"
             value="{{ .UserName }}" {{if .ErrMessage}}shake {{end}} autocomplete="username" autofocus required>
-            {{if .DisplayLoginNameSuffix}}
+            {{if .DisplayLoginNameSuffix}}de
                 <span id="default-login-suffix" lgnsuffix class="loginname-suffix">@{{.PrimaryDomain}}</span>
             {{end}}
         </div>
